@@ -21,6 +21,9 @@ import java.util.Stack;
  *
  * Note :
  *     无非是利用栈的原理模拟运算
+ *
+ * Link :
+ *     https://www.nowcoder.com/practice/22f9d7dd89374b6c8289e44237c70447?tpId=46&tqId=29031&rp=1&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking
  */
 public class _02 {
 

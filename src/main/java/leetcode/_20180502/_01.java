@@ -16,6 +16,9 @@ package leetcode._20180502;
  * Note :
  *     递归
  *     这里需要注意题目的说明，最小深度指的是距离最近叶节点的距离， 所以要注意对空节点的判断，这里之前掉进了坑里
+ *
+ * Link :
+ *     https://www.nowcoder.com/practice/e08819cfdeb34985a8de9c4e6562e724?tpId=46&tqId=29030&tPage=1&rp=1&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking
  */
 public class _01 {
 
