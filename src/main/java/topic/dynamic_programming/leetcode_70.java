@@ -2,6 +2,10 @@ package topic.dynamic_programming;
 
 public class leetcode_70 {
 
+    // dp easy
+
+    // a[n] = a[n-1] + a[n-2]
+
     public int climbStairs(int n) {
 
         int[] stepCountArr = new int[n + 2];
