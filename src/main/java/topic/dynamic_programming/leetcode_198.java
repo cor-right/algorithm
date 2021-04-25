@@ -1,10 +1,17 @@
 package topic.dynamic_programming;
 
+/**
+ * dp medium
+ *
+ * time: 2021-04-24
+ */
 public class leetcode_198 {
 
-    // DP medium
+    //
 
     // a[n] = max( a[n - 2], a[n - 3] ) + t
+
+    // same as a[n] = max(a [n - 2] + t, a[n - 1])
 
     public int rob(int[] prices) {
 

@@ -1,8 +1,13 @@
 package topic.dynamic_programming;
 
+/**
+ * dp easy
+ *
+ * time: 2021-04-24
+ */
 public class leetcode_70 {
 
-    // dp easy
+    //
 
     // a[n] = a[n-1] + a[n-2]
 
