@@ -31,6 +31,8 @@ import java.util.*;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/frog-jump
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ *
+ * time: 2021-04-30
  */
 public class leetcode_403 {
 
@@ -48,7 +50,7 @@ public class leetcode_403 {
      * @param stones
      * @return
      */
-    public static boolean canCrossMemorySearch(int[] stones) {
+    public boolean canCrossMemorySearch(int[] stones) {
         if (stones == null || stones.length == 0) {
             return true;
         }
@@ -58,8 +60,7 @@ public class leetcode_403 {
         return dfs(stones, 0, visitMap, 0);
     }
 
-    public static  boolean dfs(int[] stones, int stoneIndex, Map<Integer, Map<Integer, Boolean>> visitMap, int jumpDis) {
-        System.out.println("stoneIndex: " + stoneIndex + ", jumpDis: " + jumpDis);
+    public  boolean dfs(int[] stones, int stoneIndex, Map<Integer, Map<Integer, Boolean>> visitMap, int jumpDis) {
         if (visited(visitMap, stoneIndex, jumpDis)) {
             return false;
         }
@@ -96,7 +97,7 @@ public class leetcode_403 {
         return false;
     }
 
-    private static int search(int[] stones, int pos) {
+    private int search(int[] stones, int pos) {
         int left = 0;
         int right = stones.length;
         while (left < right) {
@@ -115,7 +116,7 @@ public class leetcode_403 {
         return -1;
     }
 
-    private static boolean visited(Map<Integer, Map<Integer, Boolean>> visitMap, int index, int jumpDis) {
+    private boolean visited(Map<Integer, Map<Integer, Boolean>> visitMap, int index, int jumpDis) {
         Map<Integer, Boolean> map = visitMap.get(index);
         if (map == null) {
             return false;
