@@ -53,6 +53,11 @@ public class leetcode_413 {
      *
      * a[m] = a[m - 1] + m - 1;
      *
+     * ！！可以优化
+     *
+     * dp[4] = dp[3] + 1
+     * 因为dp[4]的长度只比dp[3]高1，意味着只能增加一个包含所有可用元素的排列，固定只能加1，这样就不用head和tail了
+     *
      * @param nums
      * @return
      */
