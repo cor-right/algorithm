@@ -103,7 +103,6 @@ public class leetcode_403 {
         while (left < right) {
             int mid = (left + right) / 2;
 
-            System.out.println("left: " + left + ", mid: " + mid + ", right: " + right + ", pos: " + pos);
             if (pos > stones[mid]) {
                 left = mid + 1;
             } else if (pos < stones[mid]) {
