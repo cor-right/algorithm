@@ -2,6 +2,9 @@ package hot100;
 
 import java.util.Arrays;
 
+/**
+ * 核心是：二分查找
+ */
 public class Hot4 {
 
     /**
