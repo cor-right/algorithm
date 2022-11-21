@@ -1,7 +1,5 @@
-package swordToOffer.day1;
+package offer.day1;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 /**
