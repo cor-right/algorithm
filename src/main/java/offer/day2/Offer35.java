@@ -1,7 +1,5 @@
 package offer.day2;
 
-import jdk.javadoc.internal.doclets.formats.html.markup.Head;
-
 import java.util.HashMap;
 import java.util.Map;
 
