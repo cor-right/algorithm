@@ -80,6 +80,7 @@ public class Offer2_001 {
         b = Math.abs(b);
 
 
+        // core
         for (int i = 31; i >= 0; i--) {
             if ((a >>> i) - b >= 0) {
                 a = a - (b << i);
