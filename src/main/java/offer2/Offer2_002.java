@@ -28,6 +28,28 @@ package offer2;
  */
 public class Offer2_002 {
 
+    /**
+     * 扩展，二进制加法
+     * @param a
+     * @param b
+     * @return
+     */
+    public static int addBinaryUseBinaryAdd(int a, int b) {
+        while (b != 0) {
+            int c = (a & b) << 1;
+            a = a ^ b;
+            b = c;
+        }
+        return a;
+    }
+
+    /**
+     * 模拟
+     *
+     * @param a
+     * @param b
+     * @return
+     */
     public static String addBinary(String a, String b) {
         String result = "";
 
@@ -55,7 +77,7 @@ public class Offer2_002 {
     }
 
     public static void main(String[] args) {
-        System.out.println(addBinary("1", "111"));
+        System.out.println(addBinaryUseBinaryAdd(123, 999999));
     }
 
 }
