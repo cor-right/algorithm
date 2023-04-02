@@ -36,7 +36,7 @@ import java.util.Arrays;
  * The pivot index is 0.
  * Left sum = 0 (no elements to the left of index 0)
  * Right sum = nums[1] + nums[2] = 1 + -1 = 0
- *
+
  *
  * Constraints:
  *
