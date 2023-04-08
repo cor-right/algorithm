@@ -44,7 +44,7 @@ import java.util.Arrays;
  * -1000 <= nums[i] <= 1000
  *
  */
-public class _324 {
+public class _724 {
 
     /**
      * 先计算和，然后左移的过程中，左边加，右边减
