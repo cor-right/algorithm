@@ -46,8 +46,8 @@ public class _46 {
         return dp[number.length()];
     }
 
-    public static void main(String[] rags) {
-        System.out.println(new _46().translateNum(12258));
-    }
+//    public static void main(String[] rags) {
+//        System.out.println(new _46().translateNum(12258));
+//    }
 
 }

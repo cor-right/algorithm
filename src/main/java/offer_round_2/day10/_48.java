@@ -82,12 +82,12 @@ public class _48 {
         return max;
     }
 
-    public static void main(String[] args) {
-        System.out.println(new _48().lengthOfLongestSubstring("abcabcbb")); // 3
-        System.out.println(new _48().lengthOfLongestSubstring("bbbbb")); // 1
-        System.out.println(new _48().lengthOfLongestSubstring("pwwkew")); // 3
-        System.out.println(new _48().lengthOfLongestSubstring("au")); // 2
-        System.out.println(new _48().lengthOfLongestSubstring("abba")); // 2
-    }
+//    public static void main(String[] args) {
+//        System.out.println(new _48().lengthOfLongestSubstring("abcabcbb")); // 3
+//        System.out.println(new _48().lengthOfLongestSubstring("bbbbb")); // 1
+//        System.out.println(new _48().lengthOfLongestSubstring("pwwkew")); // 3
+//        System.out.println(new _48().lengthOfLongestSubstring("au")); // 2
+//        System.out.println(new _48().lengthOfLongestSubstring("abba")); // 2
+//    }
 
 }
