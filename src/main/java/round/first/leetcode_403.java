@@ -55,7 +55,7 @@ public class leetcode_403 {
             return true;
         }
 
-        Map<Integer, Map<Integer, Boolean>> visitMap = new HashMap<>();
+        Map<Integer, Map<Integer, Boolean>> visitMap = new HashMap<Integer, Map<Integer, Boolean>>();
 
         return dfs(stones, 0, visitMap, 0);
     }
@@ -71,7 +71,7 @@ public class leetcode_403 {
 
         Map<Integer, Boolean> map = visitMap.get(stoneIndex);
         if (map == null) {
-            map = new HashMap<>();
+            map = new HashMap<Integer, Boolean>();
         }
         map.put(jumpDis, true);
         visitMap.put(stoneIndex, map);
