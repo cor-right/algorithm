@@ -1,4 +1,4 @@
-package _2025._hot100.two_pointer;
+package _2025._hot100._20250321;
 
 import java.util.function.BiConsumer;
 
