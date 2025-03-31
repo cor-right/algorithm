@@ -14,13 +14,6 @@ package _2025._hot100._20250401;
  */
 public class _300_longest_increasing_subsequence {
 
-    /**
-     *
-     * @param nums
-     * @return
-     */
-    public int lengthOfLIS(int[] nums) {
 
-    }
 
 }

@@ -15,14 +15,6 @@ package _2025._hot100._20250401;
  */
 public class _287_find_the_duplicate_number {
 
-    /**
-     * 使用环形链表的思路去做.
-     *
-     * @param nums
-     * @return
-     */
-    public int findDuplicate(int[] nums) {
 
-    }
 
 }
