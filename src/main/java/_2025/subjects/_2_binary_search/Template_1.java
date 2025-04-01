@@ -5,12 +5,10 @@ package _2025.subjects._2_binary_search;
  * @date 2025/3/31
  * @description <a href=""/>
  */
-public class BaseTemplate {
+public class Template_1 {
 
     public static void main(String[] args) {
-
-        System.out.println(new BaseTemplate().binarySearch(new int[] {1, 2, 3, 5, 7, 9}, 5));
-
+        System.out.println(new Template_1().binarySearch(new int[] {1, 2, 3, 5, 7, 9}, 5));
     }
 
     private int binarySearch(int[] arr, int k) {
@@ -37,16 +35,7 @@ public class BaseTemplate {
         return -1;
     }
 
-    /**
-     *
-     * @param arr
-     * @param k
-     * @return
-     */
-    private int binarySearch(int[] arr, int k) {
 
-
-    }
 
 
 }
