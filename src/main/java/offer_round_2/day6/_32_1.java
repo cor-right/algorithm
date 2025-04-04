@@ -28,7 +28,7 @@ import java.util.*;
  */
 public class _32_1 {
 
-    public class TreeNode {
+    private class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;

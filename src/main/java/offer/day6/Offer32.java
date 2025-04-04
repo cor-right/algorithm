@@ -32,7 +32,7 @@ import java.util.Queue;
  *
  */
 public class Offer32 {
-    public class TreeNode {
+    private class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;

@@ -28,7 +28,7 @@ package offer.day20;
  */
 public class Offer07 {
 
-    public class TreeNode {
+    private class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

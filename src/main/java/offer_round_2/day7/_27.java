@@ -33,7 +33,7 @@ package offer_round_2.day7;
  */
 public class _27 {
 
-    public class TreeNode {
+    private class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;

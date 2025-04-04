@@ -36,7 +36,7 @@ package offer.day15;
  */
 public class Offer54 {
 
-    public class TreeNode {
+    private class TreeNode {
        int val;
        TreeNode left;
        TreeNode right;

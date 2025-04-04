@@ -26,7 +26,7 @@ package offer_round_2.day18;
  */
 public class _55_1 {
 
-    public class TreeNode {
+    private class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
