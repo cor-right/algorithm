@@ -28,7 +28,7 @@ public class _301_remove_invalid_parentheses {
 
         if (cur >= str.length && left == right) {
             ans.add(partAns);
-            return ;if
+            return ;
         }
 
         if (str[cur] == '(') {
