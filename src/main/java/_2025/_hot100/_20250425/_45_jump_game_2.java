@@ -1,6 +1,7 @@
 package _2025._hot100._20250425;
 
 import java.util.Arrays;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 跳跃游戏 Ⅱ
